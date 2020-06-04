@@ -1,0 +1,31 @@
+
+#fl_inp{display:none;}
+#fl_inp2{display:none;}
+.fl_upld label{
+                cursor:pointer;
+                background: #ffffff;
+                color: #5D51B5;
+                width: 100%;
+                padding: 0;
+                text-align: center;
+                border-radius: 25px;
+                border: 1px solid #ffffff;
+                -webkit-box-sizing: border-box;
+                        box-sizing: border-box;
+                -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+                        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+
+                -webkit-writing-mode: horizontal-tb !important;
+                line-height: 48px;
+                text-rendering: auto;
+                letter-spacing: normal;
+                word-spacing: normal;
+                text-transform: none;
+                text-indent: 0px;
+                text-shadow: none;
+                display: inline-block;
+                }
+.fl_upld label:hover{background:#fc0;}
+#fl_nm{
+        margin-top:20px;
+        color:#f00;}

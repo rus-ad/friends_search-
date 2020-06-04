@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang=ru>
+<head>
+    <meta charset=utf-8>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Soul Mate</title>
+    <meta name=description content="">
+    <meta name=keywords content="">
+    <base href=/ >
+    <link rel="shortcut icon" type="image/png" href="{{ static('img/favicon.png') }}">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/nprogress@0.2.0/nprogress.css">
+    <script src="https://unpkg.com/nprogress@0.2.0/nprogress.js"></script>
+    <script src="{{ static('smart-app-banner.js') }}"></script>
+    <link rel="stylesheet" type="text/css" href="{{ static('css/app.10c9cba5f2e2f1dc959b0a7520f19d0b.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ static('css/result_img.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ static('css/button.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+
+<div data-v-06b49fcb="" class="main">
+        <div data-v-06b49fcb="" class="main__content">
+            <div data-v-06b49fcb="" class="main__logo">
+                <span data-v-06b49fcb="" class="main__findclone">Soul Mate</span>
+                <p data-v-06b49fcb="" class="main__slogan">Поможем найти вторую половинку</p>
+                <div data-v-5201059f="" data-v-06b49fcb="" class="authorization-form">
+                    <form enctype="multipart/form-data" method="post" action="/predict">
+                         <div class="fl_upld">
+                            <label><input id="fl_inp" type="file" name="image">Выберите файл</label>
+                                <br><br>
+                            <label><input id="fl_inp2" type="submit">Найти партнера</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</div>
+
+
+
+
+<script>
+$(document).ready( function() {
+    $("#fl_inp").change(function(){
+         var filename = $(this).val().replace(/.*\\/, "");
+         $("#fl_nm").html(filename);
+    });
+});
+</script>
+
+<div data-v-06b49fcb="" class="triangle">
+    <div data-v-06b49fcb="" class="triangle__big"></div>
+    <div data-v-06b49fcb="" class="triangle__mid"></div>
+    <div data-v-06b49fcb="" class="triangle__sml"></div>
+</div>
+
+<ym-measure class="ym-viewport" style="display: block; inset: 0px; position: fixed; transform: translate(0px, -100%); transform-origin: 0px 0px 0px;"></ym-measure>
+<ym-measure class="ym-zoom" style="bottom: 100%; position: fixed; width: 100vw;"></ym-measure>
+
+</body>
+</html>
+
+
+
+
+
