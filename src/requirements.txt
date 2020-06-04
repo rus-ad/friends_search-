@@ -41,7 +41,7 @@ tensorflow-estimator==1.13.0
 termcolor==1.1.0
 trafaret==1.2.0
 trafaret-config==2.0.2
-urllib3==1.24.1
+urllib3==1.24.2
 vk==2.0.2
 Werkzeug==0.15.4
 yarl==1.3.0
