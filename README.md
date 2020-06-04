@@ -7,3 +7,5 @@ To start the service:
 4. Bind the database image and service
 5. Run the image
 
+The models used in the project are very demanding on the packages on which they depend. 
+All dependencies are listed in src/requirements.txt
